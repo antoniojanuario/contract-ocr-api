@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\models\database.py
+# hypothesis_version: 6.148.7
+
+[255, 'Document', 'Page', 'TextBlock', 'all, delete-orphan', 'document', 'documents', 'documents.id', 'page', 'pages', 'pages.id', 'queued', 'text_blocks']

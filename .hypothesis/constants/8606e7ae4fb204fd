@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\core\logging.py
+# hypothesis_version: 6.148.7
+
+['app.log', 'sqlalchemy.engine', 'uvicorn']

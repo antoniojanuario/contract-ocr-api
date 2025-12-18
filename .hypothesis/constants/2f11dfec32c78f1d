@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\core\errors.py
+# hypothesis_version: 6.148.7
+
+['ACCESS_DENIED', 'CONFIGURATION_ERROR', 'DATABASE_ERROR', 'DOCUMENT_NOT_FOUND', 'EMPTY_FILE', 'ENDPOINT_NOT_FOUND', 'EXPIRED_API_KEY', 'FILE_STORAGE_ERROR', 'FILE_TOO_LARGE', 'INVALID_API_KEY', 'INVALID_DOCUMENT_ID', 'INVALID_FILE_FORMAT', 'INVALID_PARAMETER', 'INVALID_WEBHOOK_URL', 'MISSING_API_KEY', 'MISSING_FILENAME', 'MISSING_WEBHOOK_URL', 'OCR_PROCESSING_ERROR', 'PDF_VALIDATION_ERROR', 'RATE_LIMIT_EXCEEDED', 'RESOURCE_NOT_FOUND', 'UNEXPECTED_ERROR', 'UNSAFE_FILENAME', 'UPLOAD_ERROR', 'Z', 'authentication', 'authorization', 'category', 'code', 'details', 'error', 'external_service', 'internal', 'message', 'not_found', 'processing', 'rate_limit', 'request_id', 'retry_after', 'storage', 'timestamp', 'validation']

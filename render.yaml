@@ -1,0 +1,50 @@
+# Render deployment configuration
+services:
+  - type: web
+    name: contract-ocr-api
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: chmod +x start_render.sh && ./start_render.sh
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: DATABASE_URL
+        fromDatabase:
+          name: contract-ocr-db
+          property: connectionString
+      - key: REDIS_URL
+        fromService:
+          type: redis
+          name: contract-ocr-redis
+          property: connectionString
+      - key: USE_REDIS
+        value: false  # Use database queue instead
+      - key: LOG_LEVEL
+        value: INFO
+      - key: REQUIRE_API_KEY
+        value: false
+      - key: ENABLE_SECURITY_HEADERS
+        value: true
+      - key: ENABLE_REQUEST_LOGGING
+        value: true
+      - key: RATE_LIMIT_REQUESTS_PER_MINUTE
+        value: 30
+      - key: RATE_LIMIT_REQUESTS_PER_HOUR
+        value: 500
+      - key: MAX_FILE_SIZE
+        value: 25165824  # 24MB for free tier
+      - key: OCR_TIMEOUT
+        value: 180  # 3 minutes for free tier
+
+  - type: redis
+    name: contract-ocr-redis
+    plan: free
+    maxmemoryPolicy: allkeys-lru
+
+databases:
+  - name: contract-ocr-db
+    databaseName: contract_ocr
+    user: contract_ocr_user
+    plan: free

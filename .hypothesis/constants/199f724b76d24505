@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\services\ocr_engine.py
+# hypothesis_version: 6.148.7
+
+[0.0, 'easyocr', 'overall_confidence', 'paddleocr', 'pages_processed', 'tesseract', 'total_text_blocks']

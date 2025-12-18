@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\core\security.py
+# hypothesis_version: 6.148.7
+
+[',', 'API_KEYS', 'ApiKey', 'DEFAULT_API_KEY', 'INVALID_API_KEY', 'MISSING_API_KEY', 'WWW-Authenticate', 'anonymous', 'code', 'dev-key-12345', 'error', 'message']

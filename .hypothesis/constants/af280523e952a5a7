@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\middleware\rate_limiting.py
+# hypothesis_version: 6.148.7
+
+[300, 1000, 3600, ',', 'RATE_LIMIT_EXCEEDED', 'Retry-After', 'X-API-Key', 'X-Forwarded-For', 'Z', 'code', 'error', 'message', 'retry_after_seconds', 'timestamp', 'unknown']

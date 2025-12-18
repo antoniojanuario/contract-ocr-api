@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\core\config.py
+# hypothesis_version: 6.148.7
+
+[0.7, 100, 300, 1024, '*', '.env', '/api/v1', '1.0.0', '1000', '60', 'Contract OCR API', 'DATABASE_URL', 'INFO', 'LOG_LEVEL', 'REDIS_URL', 'REQUIRE_API_KEY', 'USE_REDIS', 'X-API-Key', 'env_file', 'false', 'true', 'uploads']

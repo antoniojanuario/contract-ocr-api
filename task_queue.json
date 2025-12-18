@@ -1,0 +1,101 @@
+{
+  "tasks": [
+    {
+      "id": "ocr_849c9811-c6ad-4d5f-a91d-eab0ade20a1d_1766068445",
+      "document_id": "849c9811-c6ad-4d5f-a91d-eab0ade20a1d",
+      "task_type": "ocr_processing",
+      "payload": {
+        "filename": "Contracto ALFA 5.pdf",
+        "file_path": "uploads\\849c9811-c6ad-4d5f-a91d-eab0ade20a1d/Contracto_ALFA_5.pdf",
+        "created_at": "2025-12-18T14:34:05.565346"
+      },
+      "status": "processing",
+      "created_at": "2025-12-18T14:34:05.565366",
+      "started_at": "2025-12-18T14:41:44.332426",
+      "completed_at": null,
+      "retry_count": 0,
+      "max_retries": 3,
+      "error_message": null,
+      "progress": 0
+    },
+    {
+      "id": "ocr_e2c83472-e4bc-44fd-b2f5-4682c7701c5c_1766068557",
+      "document_id": "e2c83472-e4bc-44fd-b2f5-4682c7701c5c",
+      "task_type": "ocr_processing",
+      "payload": {
+        "filename": "Edson Costa-CV.pdf",
+        "file_path": "uploads\\e2c83472-e4bc-44fd-b2f5-4682c7701c5c\\Edson_Costa-CV.pdf",
+        "created_at": "2025-12-18T14:35:57.389114"
+      },
+      "status": "pending",
+      "created_at": "2025-12-18T14:35:57.389127",
+      "started_at": null,
+      "completed_at": null,
+      "retry_count": 0,
+      "max_retries": 3,
+      "error_message": null,
+      "progress": 0
+    },
+    {
+      "id": "ocr_dc0aeb2a-866b-4b86-bc66-f0c5ef096822_1766068740",
+      "document_id": "dc0aeb2a-866b-4b86-bc66-f0c5ef096822",
+      "task_type": "ocr_processing",
+      "payload": {
+        "filename": "Edson Costa-CV.pdf",
+        "file_path": "uploads\\dc0aeb2a-866b-4b86-bc66-f0c5ef096822\\Edson_Costa-CV.pdf",
+        "created_at": "2025-12-18T14:39:00.259045"
+      },
+      "status": "pending",
+      "created_at": "2025-12-18T14:39:00.259067",
+      "started_at": null,
+      "completed_at": null,
+      "retry_count": 0,
+      "max_retries": 3,
+      "error_message": null,
+      "progress": 0
+    },
+    {
+      "id": "ocr_6d30765d-cdf2-420c-a736-09ace7f9710d_1766068791",
+      "document_id": "6d30765d-cdf2-420c-a736-09ace7f9710d",
+      "task_type": "ocr_processing",
+      "payload": {
+        "filename": "Edson Costa-CV.pdf",
+        "file_path": "uploads\\6d30765d-cdf2-420c-a736-09ace7f9710d\\Edson_Costa-CV.pdf",
+        "created_at": "2025-12-18T14:39:51.701905"
+      },
+      "status": "pending",
+      "created_at": "2025-12-18T14:39:51.701923",
+      "started_at": null,
+      "completed_at": null,
+      "retry_count": 0,
+      "max_retries": 3,
+      "error_message": null,
+      "progress": 0
+    },
+    {
+      "id": "ocr_36614ae2-6f80-4493-9482-2c67b9c04ad5_1766068818",
+      "document_id": "36614ae2-6f80-4493-9482-2c67b9c04ad5",
+      "task_type": "ocr_processing",
+      "payload": {
+        "filename": "Contracto ALFA 5.pdf",
+        "file_path": "uploads\\36614ae2-6f80-4493-9482-2c67b9c04ad5\\Contracto_ALFA_5.pdf",
+        "created_at": "2025-12-18T14:40:18.539410"
+      },
+      "status": "pending",
+      "created_at": "2025-12-18T14:40:18.539424",
+      "started_at": null,
+      "completed_at": null,
+      "retry_count": 0,
+      "max_retries": 3,
+      "error_message": null,
+      "progress": 0
+    }
+  ],
+  "pending_queue": [
+    "ocr_e2c83472-e4bc-44fd-b2f5-4682c7701c5c_1766068557",
+    "ocr_dc0aeb2a-866b-4b86-bc66-f0c5ef096822_1766068740",
+    "ocr_6d30765d-cdf2-420c-a736-09ace7f9710d_1766068791",
+    "ocr_36614ae2-6f80-4493-9482-2c67b9c04ad5_1766068818",
+    "ocr_849c9811-c6ad-4d5f-a91d-eab0ade20a1d_1766068445"
+  ]
+}

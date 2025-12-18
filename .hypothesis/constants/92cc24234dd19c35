@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\middleware\error_handler.py
+# hypothesis_version: 6.148.7
+
+['.', 'ACCESS_DENIED', 'EMPTY_', 'EXPIRED_API_KEY', 'Endpoint not found', 'HTTP Exception', 'INSUFFICIENT_', 'INVALID_', 'INVALID_API_KEY', 'MISSING_', 'MISSING_API_KEY', 'RATE_LIMIT_', 'Retry-After', 'UNSAFE_', 'Z', '_DATABASE_ERROR', '_NOT_COMPLETED', '_NOT_FOUND', '_PROCESSING_ERROR', '_SERVICE_', '_STORAGE_ERROR', '_UNAVAILABLE', 'category', 'code', 'detail', 'details', 'error', 'error_count', 'error_message', 'error_type', 'field', 'input', 'loc', 'message', 'msg', 'request_id', 'retry_after', 'timestamp', 'traceback', 'type', 'validation_errors']

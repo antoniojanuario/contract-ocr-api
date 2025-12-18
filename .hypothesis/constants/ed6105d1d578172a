@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\core\logging.py
+# hypothesis_version: 6.148.7
+
+[100, 400, 500, 1024, 3600, '%Y-%m-%d %H:%M:%S', 'DEBUG', 'LOG_FORMAT', 'Z', 'alert_type', 'api', 'app.log', 'count', 'details', 'document_id', 'duration_seconds', 'error_category', 'error_code', 'error_count', 'error_frequency', 'error_tracker', 'errors', 'errors.log', 'exception', 'extra_data', 'first_seen', 'function', 'httpcore', 'httpx', 'json', 'last_seen', 'level', 'line', 'log_directory', 'log_format', 'log_level', 'logger', 'logs', 'message', 'method', 'module', 'operation', 'path', 'performance', 'performance.log', 'plain', 'request_id', 'request_size_bytes', 'response_size_bytes', 'sqlalchemy.engine', 'status_code', 'timestamp', 'total_error_types', 'traceback', 'type', 'unknown', 'user_id', 'utf-8', 'uvicorn', 'uvicorn.access']

@@ -1,0 +1,40 @@
+# Full requirements including OCR dependencies
+# Use this when you have the necessary build tools installed
+
+# Core FastAPI dependencies
+fastapi
+uvicorn[standard]
+pydantic
+pydantic-settings
+
+# Database dependencies
+sqlalchemy
+alembic
+
+# File handling dependencies
+python-multipart
+PyPDF2
+Pillow
+
+# OCR dependencies (requires C++ build tools)
+easyocr
+paddleocr
+pytesseract
+
+# NLP dependencies (requires C++ build tools)
+spacy
+transformers
+
+# Task queue dependencies
+celery
+redis
+
+# Development dependencies
+pytest
+pytest-asyncio
+httpx
+hypothesis
+
+# Additional utilities
+python-dotenv
+aiofiles

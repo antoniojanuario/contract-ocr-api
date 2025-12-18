@@ -1,0 +1,53 @@
+# Deployment-optimized requirements for Contract OCR API
+# Minimal dependencies for free platform deployment
+
+# Core FastAPI and ASGI server
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+
+# Database
+sqlalchemy==2.0.23
+alembic==1.12.1
+aiosqlite==0.19.0  # For SQLite async support
+asyncpg==0.29.0    # For PostgreSQL async support (optional)
+
+# Data validation and serialization
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# OCR engines (lightweight versions)
+easyocr==1.7.0
+pytesseract==0.3.10
+
+# PDF processing
+PyPDF2==3.0.1
+pdf2image==1.16.3
+Pillow==10.1.0
+
+# Text processing
+spacy==3.7.2
+
+# Task queue (optional Redis support)
+redis==5.0.1
+celery==5.3.4
+
+# HTTP client for webhooks
+aiohttp==3.9.1
+
+# System monitoring
+psutil==5.9.6
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Security
+python-multipart==0.0.6  # For file uploads
+python-jose[cryptography]==3.3.0  # For JWT tokens (if needed)
+
+# Development and testing (only install in dev)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+httpx==0.25.2  # For testing FastAPI
+
+# Optional: For better performance on free platforms
+orjson==3.9.10  # Faster JSON serialization

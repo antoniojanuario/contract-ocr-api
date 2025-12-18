@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\middleware\security_headers.py
+# hypothesis_version: 6.148.7
+
+['0', '1; mode=block', 'Cache-Control', 'Contract-OCR-API/1.0', 'DENY', 'Expires', 'Permissions-Policy', 'Pragma', 'Referrer-Policy', 'Server', 'X-Frame-Options', 'X-XSS-Protection', 'https', 'no-cache', 'nosniff']

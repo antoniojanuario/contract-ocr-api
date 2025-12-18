@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\core\alerting.py
+# hypothesis_version: 6.148.7
+
+['-', 'AUTHENTICATION_ERROR', 'DATABASE_ERROR', 'FILE_STORAGE_ERROR', 'OCR_PROCESSING_ERROR', 'RATE_LIMIT_EXCEEDED', 'active_alerts', 'additional_details', 'alert_details', 'alert_id', 'alert_message', 'alert_severity', 'alert_type', 'by_severity', 'by_type', 'cleaned_count', 'count', 'critical', 'details', 'duration', 'error', 'error_code', 'error_frequency', 'handler', 'high', 'id', 'low', 'medium', 'message', 'operation', 'performance', 'request_id', 'resolved', 'resolved_alerts', 'resolved_at', 'resource_usage', 'security', 'severity', 'system_health', 'threshold', 'time_window_minutes', 'timestamp', 'title', 'total_alerts', 'type']

@@ -1,0 +1,30 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "python -m uvicorn app.main:app --host 0.0.0.0 --port $PORT --workers 1",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 100,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  },
+  "environments": {
+    "production": {
+      "variables": {
+        "PYTHON_VERSION": "3.11",
+        "USE_REDIS": "false",
+        "LOG_LEVEL": "INFO",
+        "REQUIRE_API_KEY": "false",
+        "ENABLE_SECURITY_HEADERS": "true",
+        "ENABLE_REQUEST_LOGGING": "true",
+        "RATE_LIMIT_REQUESTS_PER_MINUTE": "30",
+        "RATE_LIMIT_REQUESTS_PER_HOUR": "500",
+        "MAX_FILE_SIZE": "20971520",
+        "OCR_TIMEOUT": "120",
+        "DATABASE_URL": "${{Postgres.DATABASE_URL}}"
+      }
+    }
+  }
+}

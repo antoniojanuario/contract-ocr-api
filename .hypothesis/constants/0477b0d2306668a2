@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\models\__init__.py
+# hypothesis_version: 6.148.7
+
+['BoundingBox', 'DBTextBlock', 'Document', 'DocumentMetadata', 'ErrorResponse', 'Page', 'PageContent', 'ProcessingResult', 'ProcessingStatus', 'TextBlock']

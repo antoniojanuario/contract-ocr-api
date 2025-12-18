@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\services\file_validation.py
+# hypothesis_version: 6.148.7
+
+[b'%PDF-', 1024, '"', '*', '..', '.pdf', '/', ':', '<', '>', '?', 'CORRUPTED_PDF', 'EMPTY_FILE', 'EMPTY_PDF', 'ENCRYPTED_PDF', 'FILE_TOO_LARGE', 'Filename is required', 'INVALID_FILE_FORMAT', 'MISSING_FILENAME', 'PDF_VALIDATION_ERROR', 'TOO_MANY_PAGES', 'UNSAFE_FILENAME', '\\', 'application/pdf', 'corruption_error', 'dangerous_chars', 'expected_extension', 'expected_type', 'file_size', 'file_type_detected', 'filename', 'max_pages', 'max_size', 'max_size_mb', 'note', 'page_count', 'size_mb', 'unknown', 'validation_error', '|']

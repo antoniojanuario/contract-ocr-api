@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\middleware\request_logging.py
+# hypothesis_version: 6.148.7
+
+[',', 'User-Agent', 'X-API-Key', 'X-Forwarded-For', 'X-Process-Time', 'X-Request-ID', 'request_id', 'unknown']

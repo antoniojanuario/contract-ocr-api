@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - DATABASE_URL=sqlite:///./contract_ocr.db
+      - REDIS_URL=redis://redis:6379
+      - USE_REDIS=true
+      - LOG_LEVEL=INFO
+      - REQUIRE_API_KEY=false
+      - ENABLE_SECURITY_HEADERS=true
+      - ENABLE_REQUEST_LOGGING=true
+    volumes:
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+    depends_on:
+      - redis
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "python", "-c", "import requests; requests.get('http://localhost:8000/health')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  redis:
+    image: redis:7-alpine
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  worker:
+    build: .
+    command: python run_worker.py
+    environment:
+      - DATABASE_URL=sqlite:///./contract_ocr.db
+      - REDIS_URL=redis://redis:6379
+      - USE_REDIS=true
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./uploads:/app/uploads
+      - ./logs:/app/logs
+    depends_on:
+      - redis
+      - app
+    restart: unless-stopped
+
+volumes:
+  redis_data:

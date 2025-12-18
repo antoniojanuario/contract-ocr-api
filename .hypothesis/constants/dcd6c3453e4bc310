@@ -1,0 +1,4 @@
+# file: C:\Users\Antonio.Januario\OneDrive - BAI - Banco Angolano de Investimento\Desktop\gjc\app\api\v1\endpoints\documents.py
+# hypothesis_version: 6.148.7
+
+['/upload', 'DOCUMENT_NOT_FOUND', 'INVALID_DOCUMENT_ID', 'UPLOAD_ERROR', 'Z', 'code', 'details', 'error', 'file_path', 'message', 'request_id', 'timestamp', 'unknown.pdf']
