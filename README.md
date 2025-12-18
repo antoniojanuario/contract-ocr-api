@@ -195,7 +195,7 @@ chmod +x start_render.sh
 
 - **FastAPI** - Framework web moderno
 - **SQLAlchemy** - ORM para banco de dados
-- **PyMuPDF** - Extração de texto de PDFs
+- **pdfplumber/pypdf** - Extração de texto de PDFs (sem compilação)
 - **PostgreSQL** - Banco de dados em produção
 - **Uvicorn** - Servidor ASGI de alta performance
 
