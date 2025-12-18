@@ -21,7 +21,7 @@ from app.models.schemas import ProcessingStatus
 from app.services.task_queue import (
     TaskQueue, Task, TaskStatus, get_task_queue
 )
-from app.services.ocr_engine import MultiBackendOCRService
+from app.services.ocr_engine_simple import SimpleOCREngine
 from app.services.text_processor import TextNormalizer
 from app.services.page_organizer import PageOrganizer
 from app.services.file_storage import FileStorageService
@@ -34,7 +34,7 @@ class TaskProcessor:
     """Processes individual OCR tasks"""
     
     def __init__(self):
-        self.ocr_engine = MultiBackendOCRService()
+        self.ocr_engine = SimpleOCREngine()
         self.text_processor = TextNormalizer()
         self.page_organizer = PageOrganizer()
         self.file_storage = FileStorageService()

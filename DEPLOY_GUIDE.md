@@ -26,7 +26,7 @@ git push origin main
 5. **Configure:**
    - **Name:** `contract-ocr-api`
    - **Environment:** `Python 3`
-   - **Build Command:** `pip install -r requirements.txt`
+   - **Build Command:** `pip install -r requirements-render.txt`
    - **Start Command:** `chmod +x start_render.sh && ./start_render.sh`
    - **Plan:** `Free`
 
@@ -142,6 +142,14 @@ GET https://contract-ocr-api.onrender.com/api/v1/documents/{document_id}/results
 - **PostgreSQL:** 1GB storage, 97 conexões
 - **Arquivos:** 25MB máximo por PDF
 - **Processamento:** ~3 minutos timeout
+
+## 🔧 OCR Engine Otimizado
+
+Para garantir compatibilidade com o plano gratuito do Render, a API usa:
+- **pdfplumber** ou **pypdf** para extração de texto
+- Sem dependências de compilação C++
+- Processamento rápido e eficiente
+- Funciona com PDFs que contêm texto nativo
 
 ## 🛠️ Troubleshooting
 

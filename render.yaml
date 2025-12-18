@@ -3,7 +3,7 @@ services:
   - type: web
     name: contract-ocr-api
     env: python
-    buildCommand: pip install -r requirements.txt
+    buildCommand: pip install -r requirements-render.txt
     startCommand: chmod +x start_render.sh && ./start_render.sh
     plan: free
     healthCheckPath: /health
