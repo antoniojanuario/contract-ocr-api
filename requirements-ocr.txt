@@ -23,8 +23,12 @@ psutil==5.9.6
 pdfplumber==0.10.3
 pypdf==3.17.4
 
-# OCR libraries for image processing (optional - will fallback gracefully)
+# OCR libraries for image processing
 easyocr==1.7.1
+Pillow==10.1.0
+
+# Fallback: PyMuPDF for image extraction (if compilation works)
+# PyMuPDF==1.23.8
 
 # Production server
 gunicorn==21.2.0
